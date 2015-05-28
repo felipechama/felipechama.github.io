@@ -1,0 +1,25 @@
+---
+C:/Users/Felipe/localhost/felipechama.com/about.md:
+  mtime: 2015-05-28 00:39:24.000000000 -03:00
+  deps:
+  - "/Users/Felipe/localhost/felipechama.com/_layouts/page.html"
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/head.html
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/header.html
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/footer.html
+  - "/Users/Felipe/localhost/felipechama.com/_layouts/default.html"
+C:/Users/Felipe/localhost/felipechama.com/feed.xml:
+  mtime: 2015-05-28 00:39:24.000000000 -03:00
+  deps: []
+C:/Users/Felipe/localhost/felipechama.com/index.html:
+  mtime: 2015-05-28 00:39:24.000000000 -03:00
+  deps:
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/head.html
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/header.html
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/footer.html
+  - "/Users/Felipe/localhost/felipechama.com/_layouts/default.html"
+"/Users/Felipe/localhost/felipechama.com/_layouts/page.html":
+  mtime: 2015-05-28 00:39:24.000000000 -03:00
+  deps: []
+C:/Users/Felipe/localhost/felipechama.com/_includes/head.html:
+  mtime: 2015-05-28 00:39:24.000000000 -03:00
+  deps: []
