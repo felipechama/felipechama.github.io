@@ -2,7 +2,7 @@
 name: Felipe Chama
 source: .
 destination: ./_site
-baseurl: "/projetos/felipechama.com" 
+baseurl: "" 
 url: "http://www.felipechama.com" 
 markdown: kramdown
 
@@ -20,8 +20,7 @@ sass:
   #:compressed
 
 # Configurações do site 
-title: Felipe Chama Web Developer 
+title: Felipe Chama - Programador Web
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  25 anos, brasileiro, programador web. Formado em Ciência da Computação e apaixonado por tecnologia. 
+  HTML5, CSS3, Javascript e Responsive Web Design.
