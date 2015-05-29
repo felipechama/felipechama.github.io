@@ -2,12 +2,168 @@
  * Geral
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 300;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  padding: 30px;
+}
+
+h1 {
+  color: #666666;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+h2 {
+  color: #999999;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  color: #999999;
+}
+
+.container {
+  background: #fff;
+  position: relative;
+  width: 100%;
+  max-width: $width-desktop;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.container:before, .container:after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  border-radius: 100px/10px;
+  -moz-border-radius: 100px/10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/**
+ * Topo
+ */ 
+header {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  position: relative;
+}
+
+header .column {
+  flex-grow: 2;
+  align-items: center;
+  display: flex;
+}
+
+header .column.info {
+  border-right: 1px solid #eee;
+  margin-right: 24px;
+}
+
+header .info figure {
+  margin-right: 15px;
+}
+
+header .info img.perfil {
+  max-width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+header .social-links {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+header .social-links li {
+  float: left;
+}
+
+header .social-links [class^="icon-"] {
+  font-size: 25px;
+  line-height: 1;
+}
+
+header .social-links a {
+  padding: 7px 7px 1px 7px;
+  display: block;
+  margin-left: 10px;
+}
+
+header .social-links .icon-twitter:hover {
+  color: #83DDF2;
+}
+
+header .social-links .icon-linkedin:hover {
+  color: #0275B3;
+}
+
+header .social-links .icon-arroba:hover {
+  color: #72B5E5;
+}
+
+
+// to do
+// reformular melhor max-width
+@media (max-width: $width-tablet) {
+  header {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  header .column.info {
+    border-right: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  header .info h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+}
+
+
+/**
+ * Corpo
+ */ 
+main {
+  
+  h1 {
+    font-size: 21px;
+    line-height: 23px;
+  }
+
+  h2, p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+
+/**
+ * Rodapé
+ */ 
+footer {
+  
 }
 
