@@ -33,12 +33,12 @@ h3 {
 }
 
 .container {
-  background: #fff;
-  position: relative;
   width: 100%;
-  max-width: $width-desktop;
   padding: 30px;
   margin: 0 auto;
+  background: #fff;
+  position: relative;
+  max-width: $width-desktop;
 }
 
 .container:before, .container:after {
@@ -61,15 +61,29 @@ h3 {
  */ 
 header {
   display: flex;
-  align-items: stretch;
-  flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   position: relative;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  align-items: stretch;
+  -webkit-align-items: stretch;
 }
 
 header .column {
   flex-grow: 2;
-  align-items: center;
+  -webkit-box-flex: 2;
+  -moz-flex-grow: 2;
+  -ms-flex-grow: 2;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  -webkit-align-items: center;
 }
 
 header .column.info {
@@ -89,6 +103,10 @@ header .info img.perfil {
 
 header .social-links {
   flex-grow: 1;
+  -webkit-box-flex: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-grow: 1;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
@@ -105,28 +123,54 @@ header .social-links a {
   padding: 7px 7px 1px 7px;
   display: block;
   margin-left: 10px;
+  color: #000;
 }
 
-header .social-links .icon-twitter:hover {
-  color: #83DDF2;
-}
-
-header .social-links .icon-linkedin:hover {
-  color: #0275B3;
-}
-
-header .social-links .icon-arroba:hover {
+header .social-links [class^="icon-"]:hover {
   color: #72B5E5;
 }
 
+nav.menu {
+  zoom: 1;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+}
 
-// to do
-// reformular melhor max-width
+nav.menu li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav.menu a {
+  display: inline-block;
+  text-align: center;
+}
+
+nav.menu p {
+  color: #999;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+nav.menu [class^="icon-"] {
+  font-size: 40px;
+  line-height: 40px;
+  color: #ccc;
+}
+
 @media (max-width: $width-tablet) {
   header {
     display: flex;
-    align-items: stretch;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
     flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: stretch;
+    -webkit-align-items: stretch;
   }
 
   header .column.info {
@@ -140,6 +184,14 @@ header .social-links .icon-arroba:hover {
     line-height: 40px;
   }
 
+  nav.menu {
+    text-align: center;
+  }
+
+  nav.menu li {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }
 
 
@@ -147,16 +199,21 @@ header .social-links .icon-arroba:hover {
  * Corpo
  */ 
 main {
-  
-  h1 {
-    font-size: 21px;
-    line-height: 23px;
-  }
+  margin-top: 20px;  
+}
 
-  h2, p {
-    font-size: 16px;
-    line-height: 18px;
-  }
+main h2, main h3 {
+  color: #666;
+  font-size: 21px;
+  line-height: 26px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+main p {
+  margin-bottom: 5px;
 }
 
 
@@ -164,6 +221,45 @@ main {
  * Rodapé
  */ 
 footer {
-  
+  text-align: right;
+  position: relative;
+  width: 100%;
+  max-width: $width-desktop;
+  margin: 5px auto;
 }
+
+footer span {
+  color: #888;
+  font-size: 11px;
+}
+
+@media (max-width: $width-tablet) {
+  
+  footer {
+    text-align: center;
+  }
+}
+
+
+/**
+ * Resumo
+ */ 
+
+ul.list-courses {
+  color: #888;
+}
+
+ul.list-courses li {
+  padding: 5px 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+ul.list-courses .title {
+  font-weight: bold;
+}
+
+ul.list-courses .time {
+  float: right;
+}
+
 

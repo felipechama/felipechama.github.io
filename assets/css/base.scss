@@ -5,7 +5,7 @@
 
 // Variáveis de configuração
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   14px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -55,7 +55,7 @@ $width-mobile: 320px;
 }
 
 .icon-twitter:before {
-  content: "t";
+  content: "b";
 }
 .icon-linkedin:before {
   content: "l";
@@ -65,6 +65,12 @@ $width-mobile: 320px;
 }
 .icon-arroba:before {
   content: "a";
+}
+.icon-resumo:before {
+  content: "c";
+}
+.icon-portfolio:before {
+  content: "d";
 }
 
 // 

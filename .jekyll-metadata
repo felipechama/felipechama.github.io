@@ -1,74 +1,49 @@
 ---
-C:/Users/Felipe/localhost/felipechama.com/about.md:
-  mtime: 2015-05-28 00:39:24.000000000 -03:00
-  deps:
-  - "/Users/Felipe/localhost/felipechama.com/_layouts/page.html"
-  - C:/Users/Felipe/localhost/felipechama.com/_includes/head.html
-  - C:/Users/Felipe/localhost/felipechama.com/_includes/header.html
-  - C:/Users/Felipe/localhost/felipechama.com/_includes/footer.html
-  - "/Users/Felipe/localhost/felipechama.com/_layouts/default.html"
 C:/Users/Felipe/localhost/felipechama.com/feed.xml:
-  mtime: 2015-05-28 00:39:24.000000000 -03:00
+  mtime: 2015-06-17 01:46:21.000000000 -03:00
   deps: []
 C:/Users/Felipe/localhost/felipechama.com/index.html:
-  mtime: 2015-05-28 00:39:24.000000000 -03:00
+  mtime: 2015-06-16 22:35:22.000000000 -03:00
   deps:
   - C:/Users/Felipe/localhost/felipechama.com/_includes/head.html
   - C:/Users/Felipe/localhost/felipechama.com/_includes/header.html
   - C:/Users/Felipe/localhost/felipechama.com/_includes/footer.html
-  - "/Users/Felipe/localhost/felipechama.com/_layouts/default.html"
   - "/Users/Felipe/localhost/felipechama.com/_layouts/base.html"
-"/Users/Felipe/localhost/felipechama.com/_layouts/page.html":
-  mtime: 2015-05-28 00:39:24.000000000 -03:00
+C:/Users/Felipe/localhost/felipechama.com/portfolio.md:
+  mtime: 2015-06-17 01:44:03.000000000 -03:00
+  deps:
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/head.html
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/header.html
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/footer.html
+  - "/Users/Felipe/localhost/felipechama.com/_layouts/base.html"
+C:/Users/Felipe/localhost/felipechama.com/resumo.md:
+  mtime: 2015-06-17 01:23:11.000000000 -03:00
+  deps:
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/head.html
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/header.html
+  - C:/Users/Felipe/localhost/felipechama.com/_includes/footer.html
+  - "/Users/Felipe/localhost/felipechama.com/_layouts/base.html"
+C:/Users/Felipe/localhost/felipechama.com/assets/font/FCIcon.eot:
+  mtime: 2015-06-17 02:05:34.000000000 -03:00
+  deps: []
+C:/Users/Felipe/localhost/felipechama.com/assets/font/FCIcon.svg:
+  mtime: 2015-06-17 02:05:34.000000000 -03:00
+  deps: []
+C:/Users/Felipe/localhost/felipechama.com/assets/font/FCIcon.ttf:
+  mtime: 2015-06-17 02:05:34.000000000 -03:00
+  deps: []
+C:/Users/Felipe/localhost/felipechama.com/assets/font/FCIcon.woff:
+  mtime: 2015-06-17 02:05:34.000000000 -03:00
+  deps: []
+C:/Users/Felipe/localhost/felipechama.com/files/Curriculo_Felipe_Chama.pdf:
+  mtime: 2015-06-17 00:55:21.000000000 -03:00
+  deps: []
+C:/Users/Felipe/localhost/felipechama.com/images/perfil-felipe-chama.jpg:
+  mtime: 2015-05-29 00:04:37.000000000 -03:00
   deps: []
 C:/Users/Felipe/localhost/felipechama.com/_includes/head.html:
   mtime: 2015-05-29 00:26:00.000000000 -03:00
   deps: []
 C:/Users/Felipe/localhost/felipechama.com/_includes/header.html:
-  mtime: 2015-05-29 00:58:33.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/_includes/footer.html:
-  mtime: 2015-05-29 00:21:13.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/untitled-font-1.eot:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/untitled-font-1.svg:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/untitled-font-1.ttf:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/untitled-font-1.woff:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/icon.eot:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/icon.svg:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/icon.ttf:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/icon.woff:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/FCIcon.eot:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/FCIcon.svg:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/FCIcon.ttf:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/assets/font/FCIcon.woff:
-  mtime: 2015-05-29 01:12:04.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/images/perfil.jpg:
-  mtime: 2015-05-29 00:04:37.000000000 -03:00
-  deps: []
-C:/Users/Felipe/localhost/felipechama.com/images/perfil-felipe-chama.jpg:
-  mtime: 2015-05-29 00:04:37.000000000 -03:00
+  mtime: 2015-06-17 01:19:10.000000000 -03:00
   deps: []
