@@ -1,4 +1,135 @@
 [
+  
+
+
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "julio-bertini",
+    "position": 1,
+    "jackpot": 260
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "soninho",
+    "position": 2,
+    "jackpot": 160
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "bruno-bertini",
+    "position": 3,
+    "jackpot": 40
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "felipe-chama",
+    "position": 4,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "chico",
+    "position": 5,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "gaucho",
+    "position": 6,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "yassaka",
+    "position": 7,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "fernando",
+    "position": 8,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "16/04",
+    "player": "raphael",
+    "position": 9,
+    "jackpot": 0
+  },
+
+
+
+  {
+    "idTourney": 8,
+    "stepDate": "02/04",
+    "player": "raphael",
+    "position": 1,
+    "jackpot": 135,
+    "replaceScore": 60
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "02/04",
+    "player": "zoio",
+    "position": 2,
+    "jackpot": 250,
+    "replaceScore": 60
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "02/04",
+    "player": "gaucho",
+    "position": 3,
+    "jackpot": 135,
+    "replaceScore": 60
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "02/04",
+    "player": "julio-bertini",
+    "position": 4,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "02/04",
+    "player": "yassaka",
+    "position": 5,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "02/04",
+    "player": "gustavo-galrao",
+    "position": 6,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "02/04",
+    "player": "bruno-bertini",
+    "position": 7,
+    "jackpot": 0
+  },
+  {
+    "idTourney": 8,
+    "stepDate": "02/04",
+    "player": "chico",
+    "position": 8,
+    "jackpot": 0
+  },
+
+
+
   {
     "idTourney": 8,
     "stepDate": "19/03",
@@ -134,7 +265,7 @@
     "position": 9,
     "jackpot": 0
   },
- 
+
 
   {
     "idTourney": 8,
