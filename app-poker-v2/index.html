@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <script src='assets/tti-polyfill.js'></script>
 	<script src='assets/bundle.js?123'></script>
 
   <script>
@@ -22,6 +23,59 @@
 
     ga('create', 'UA-102881042-1', 'auto');
     ga('send', 'pageview');
+
+    // Register the PerformanceObserver to track paint timing. 
+    const observer = new PerformanceObserver((list) => {
+      for (const entry of list.getEntries()) {
+        // `name` will be either 'first-paint' or 'first-contentful-paint'.
+        const metricName = entry.name;
+        const time = Math.round(entry.startTime + entry.duration);
+
+        console.log('-------------------------------- ')
+        console.log('name ', entry.name )
+        console.log('label ', entry.attribution )
+        console.log('startTime ', entry.startTime )
+        console.log('duration ', entry.duration )
+        console.log('time ', time )
+        var event = {
+          eventCategory: 'Performance Metrics',
+          eventAction: metricName,
+          eventValue: time,
+          nonInteraction: true,
+        };
+
+        if (entry && entry.attribution) {
+          event.eventLabel = JSON.stringify(entry.attribution);
+        }
+        console.log('event', event);
+        ga('send', 'event', event);
+      }
+    });
+
+    var el = document.createElement('div');
+
+    if (PerformanceObserver) {
+      el.textContent = 'PerformanceObserver disponível';
+      // 'resource'
+      observer.observe({entryTypes: ['longtask', 'paint']});
+    } else {
+      el.textContent = 'PerformanceObserver não disponível no browser';
+    }
+
+    document.body.appendChild(el);
+
+    ttiPolyfill.getFirstConsistentlyInteractive().then((tti) => {
+      console.log('**************************** ')
+      console.log('name ', 'TTI - 2' )
+      var eventTTI = {
+        eventCategory: 'Performance Metrics',
+        eventAction: 'TTI - 2',
+        eventValue: tti,
+        nonInteraction: true,
+      };
+      console.log('event', eventTTI)
+      ga('send', 'event', eventTTI);
+    });
 
   </script>
 </body>
