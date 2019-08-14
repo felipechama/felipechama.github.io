@@ -9,74 +9,23 @@
 	<link rel='stylesheet' href='assets/reset.css'>
 	<link rel='stylesheet' href='assets/bundle.css?123'>
   <link rel="shortcut icon" href="https://felipechama.com/app-poker-v2/images/favicon-image.png">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WN57GMB');</script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body>
   <script src='assets/tti-polyfill.js'></script>
 	<script src='assets/bundle.js?123'></script>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-102881042-1', 'auto');
-    ga('send', 'pageview');
-
-    // Register the PerformanceObserver to track paint timing. 
-    const observer = new PerformanceObserver((list) => {
-      for (const entry of list.getEntries()) {
-        // `name` will be either 'first-paint' or 'first-contentful-paint'.
-        const metricName = entry.name;
-        const time = Math.round(entry.startTime + entry.duration);
-
-        console.log('-------------------------------- ')
-        console.log('name ', entry.name )
-        console.log('label ', entry.attribution )
-        console.log('startTime ', entry.startTime )
-        console.log('duration ', entry.duration )
-        console.log('time ', time )
-        var event = {
-          eventCategory: 'Performance Metrics',
-          eventAction: metricName,
-          eventValue: time,
-          nonInteraction: true,
-        };
-
-        if (entry && entry.attribution) {
-          event.eventLabel = JSON.stringify(entry.attribution);
-        }
-        console.log('event', event);
-        ga('send', 'event', event);
-      }
-    });
-
-    var el = document.createElement('div');
-
-    if (PerformanceObserver) {
-      el.textContent = 'PerformanceObserver disponível';
-      // 'resource'
-      observer.observe({entryTypes: ['longtask', 'paint']});
-    } else {
-      el.textContent = 'PerformanceObserver não disponível no browser';
-    }
-
-    document.body.appendChild(el);
-
-    ttiPolyfill.getFirstConsistentlyInteractive().then((tti) => {
-      console.log('**************************** ')
-      console.log('name ', 'TTI - 2' )
-      var eventTTI = {
-        eventCategory: 'Performance Metrics',
-        eventAction: 'TTI - 2',
-        eventValue: tti,
-        nonInteraction: true,
-      };
-      console.log('event', eventTTI)
-      ga('send', 'event', eventTTI);
-    });
-
-  </script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WN57GMB"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
